@@ -11,7 +11,7 @@ public class RectangleRunner {
         Plot3.setWidth(75);
 
 
-        int seed = Plot1.calculateArea() + Plot2.calculateArea() + Plot3.calculateArea();
+        double seed = Plot1.calculateArea() + Plot2.calculateArea() + Plot3.calculateArea();
         System.out.println("The total amount of seed required for all three plots is: " + seed);
 
 
